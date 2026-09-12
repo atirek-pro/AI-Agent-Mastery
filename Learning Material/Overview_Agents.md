@@ -8,11 +8,11 @@
 
 This course is designed for three overlapping audiences:
 
-| Audience | Goal |
-|---|---|
-| **Beginners** | Learn how to build agents from zero to one |
-| **Practitioners** | Already building agents, but want to solidify core concepts — RAG, Tool Calling, MCP, Evals |
-| **Builders** | Want a complete, end-to-end example they can deploy and continue learning from after the workshop |
+| Audience          | Goal                                                                                              |
+| ----------------- | ------------------------------------------------------------------------------------------------- |
+| **Beginners**     | Learn how to build agents from zero to one                                                        |
+| **Practitioners** | Already building agents, but want to solidify core concepts — RAG, Tool Calling, MCP, Evals       |
+| **Builders**      | Want a complete, end-to-end example they can deploy and continue learning from after the workshop |
 
 If you fall into any of these categories, this material is built for you.
 
@@ -24,11 +24,11 @@ If you fall into any of these categories, this material is built for you.
 
 Breaking this definition down, an agent is built on three core pillars:
 
-| Pillar | Description |
-|---|---|
-| **Reasoning** | Powered by an AI model (LLM). This is the "thinking" component — deciding *what* to do. |
-| **Routing** | Interpreting the incoming request and determining the correct tool or path to fulfill it. |
-| **Action** | Executing code or tools — calling APIs, invoking the LLM, or running external functions to actually *do* something. |
+| Pillar        | Description                                                                                                         |
+| ------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Reasoning** | Powered by an AI model (LLM). This is the "thinking" component — deciding _what_ to do.                             |
+| **Routing**   | Interpreting the incoming request and determining the correct tool or path to fulfill it.                           |
+| **Action**    | Executing code or tools — calling APIs, invoking the LLM, or running external functions to actually _do_ something. |
 
 ![Agent Pillars: Reasoning, Routing, Action](agent_pillars.png)
 
@@ -43,22 +43,26 @@ Real-world agent teams typically split into two complementary groups:
 ![Your Team Might Look Like: Technical Users vs Domain Experts](team_composition.png)
 
 ### 🔧 Technical Users
+
 **Roles:** AI Engineer · Developer · Data Scientist
 
 **Responsibilities:**
+
 - Code / Automation
 - Pipelines / Frameworks
 - Application performance & cost management
 
 ### 🧑‍💼 Domain Experts
+
 **Roles:** Subject Matter Experts (SMEs) · AI Product Manager
 
 **Responsibilities:**
+
 - Domain-specific prompt engineering
 - Tracking and running evaluations (evals)
 - Ensuring the product actually succeeds for real users
 
-**Key Takeaway:** Building good agents is *not* a purely technical exercise. It requires collaboration between people who understand the systems (technical users) and people who understand the problem domain (domain experts).
+**Key Takeaway:** Building good agents is _not_ a purely technical exercise. It requires collaboration between people who understand the systems (technical users) and people who understand the problem domain (domain experts).
 
 ---
 
@@ -83,7 +87,3 @@ The course is structured into 7 modules, moving from fundamentals to production:
 - An **agent** = Reasoning (LLM) + Routing (decision logic) + Action (tools/APIs).
 - Agent projects need **both technical builders and domain experts** to succeed.
 - The course moves from **foundations → engineering → frameworks → tools/MCP → RAG → evals → production**, giving a full lifecycle view of building and shipping agents.
-
----
-
-*Next: Lecture 2 — Agent Engineering*
