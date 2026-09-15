@@ -95,7 +95,6 @@ Each lecture ends with a **"Test Your Understanding"** section — use these as 
 Lecture 6 in this repo covers the _concepts_ of agent evaluation (LLM-as-a-Judge, code-based evals, eval prompt design, designing good evals). For a dedicated, hands-on deep dive into **building a full evaluation pipeline** — including working eval harnesses, datasets, and rubrics — see the companion repo:
 
 **[Agent Evaluation Deep Dive →](https://github.com/atirek-pro/Learn-Arize)**
-_(placeholder — link to be replaced)_
 
 ---
 
