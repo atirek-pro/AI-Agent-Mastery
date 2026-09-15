@@ -97,7 +97,3 @@ Lecture 6 in this repo covers the _concepts_ of agent evaluation (LLM-as-a-Judge
 **[Agent Evaluation Deep Dive →](https://github.com/atirek-pro/Learn-Arize)**
 
 ---
-
-## License
-
-Add your license of choice here.
