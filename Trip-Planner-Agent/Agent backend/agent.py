@@ -54,23 +54,23 @@ trip_agent = Agent(
 
 
 # Example usage
-destination = "Thailand"
-duration = "10 days"
-interests = "food, culture, Night Life"
+# destination = "Thailand"
+# duration = "10 days"
+# interests = "food, culture, Night Life"
 
-query = f"""
-Plan a {duration} trip to {destination}.
+# query = f"""
+# Plan a {duration} trip to {destination}.
 
-Focus on {interests}.
+# Focus on {interests}.
 
-Include:
-- Essential information
-- Budget breakdown
-- Authentic local experiences
-- Best massage experiences
-"""
+# Include:
+# - Essential information
+# - Budget breakdown
+# - Authentic local experiences
+# - Best massage experiences
+# """
 
-trip_agent.print_response(
-    query,
-    stream=True
-)
+# trip_agent.print_response(
+#     query,
+#     stream=True
+# )
